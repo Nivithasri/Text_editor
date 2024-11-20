@@ -7,25 +7,34 @@ The program provides options to either create a new file or edit an existing one
 Features:
 
 Text Editing: Write, delete, copy, cut, paste, and replace text.
+
 Cursor Movement: Navigate through the text using cursor control.
+
 Search: Find specific words in the text.
+
 Undo/Redo: Save operation states and revert or redo changes.
+
 File Operations: Create new files, edit existing files, and save changes.
 
 How to Run:
 
 Prerequisites:
+
 C++ compiler (e.g., GCC or MSVC).
 Windows system (due to usage of <Windows.h> and console attributes).
 Optionally, a terminal emulator that supports colored output.
+
 Steps:
+
 Clone the repository or copy the source code into your local machine.
+
 Compile the program using the following command:
 g++ -o Text_editor main.cpp
 
 File Structure:
 
 main.cpp: The main source file containing the implementation of the text editor.
+
 README.md: Documentation for the program.
 
 Functionalities:
@@ -42,9 +51,9 @@ Functionalities:
     Cut and Copy: Copy or cut a range of words.
     Paste: Paste the most recently copied or cut text.
     Replace: Replace a word with another.
-4. Undo/Redo
+5. Undo/Redo
     Save and restore the state of the text editor.
-5. Save Changes
+6. Save Changes
     Option to save changes before exiting.
 
 Limitations:

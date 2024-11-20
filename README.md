@@ -2,6 +2,7 @@ Text Editor
 Overview:
 
 This project is a Text Editor implemented in C++ that allows users to perform various text editing operations such as writing, deleting, moving the cursor, searching, replacing words, and more. It also supports undo and redo functionalities.
+
 The program provides options to either create a new file or edit an existing one, and it uses a linked list structure to represent and manipulate the text.
 
 Features:
@@ -22,7 +23,6 @@ Prerequisites:
 
 C++ compiler (e.g., GCC or MSVC).
 Windows system (due to usage of <Windows.h> and console attributes).
-Optionally, a terminal emulator that supports colored output.
 
 Steps:
 
@@ -40,20 +40,35 @@ README.md: Documentation for the program.
 Functionalities:
 
 1. Create New File
+   
     Starts with a blank file and allows the user to input text.
+
 2. Edit Existing File
+   
 3. Text Operations
+   
     Write Text: Add new text.
+   
     Delete Word: Delete the word under the cursor.
+   
     Move Cursor: Navigate through the text.
+
     Delete Specific Text: Remove a sequence of words.
+
     Search Word: Highlight specific occurrences of a word.
+
     Cut and Copy: Copy or cut a range of words.
+
     Paste: Paste the most recently copied or cut text.
+
     Replace: Replace a word with another.
-5. Undo/Redo
+  
+4. Undo/Redo
+   
     Save and restore the state of the text editor.
-6. Save Changes
+
+5. Save Changes
+   
     Option to save changes before exiting.
 
 Limitations:

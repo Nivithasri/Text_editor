@@ -31,24 +31,21 @@ README.md: Documentation for the program.
 Functionalities:
 
 1. Create New File
-Prompts the user to enter a filename.
-Starts with a blank file and allows the user to input text.
+    Starts with a blank file and allows the user to input text.
 2. Edit Existing File
-Opens a specified file.
-Loads the file content into the editor.
 3. Text Operations
-Write Text: Add new text.
-Delete Word: Delete the word under the cursor.
-Move Cursor: Navigate through the text.
-Delete Specific Text: Remove a sequence of words.
-Search Word: Highlight specific occurrences of a word.
-Cut and Copy: Copy or cut a range of words.
-Paste: Paste the most recently copied or cut text.
-Replace: Replace a word with another.
+    Write Text: Add new text.
+    Delete Word: Delete the word under the cursor.
+    Move Cursor: Navigate through the text.
+    Delete Specific Text: Remove a sequence of words.
+    Search Word: Highlight specific occurrences of a word.
+    Cut and Copy: Copy or cut a range of words.
+    Paste: Paste the most recently copied or cut text.
+    Replace: Replace a word with another.
 4. Undo/Redo
-Save and restore the state of the text editor.
+    Save and restore the state of the text editor.
 5. Save Changes
-Option to save changes before exiting.
+    Option to save changes before exiting.
 
 Limitations:
 
